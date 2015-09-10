@@ -1,11 +1,10 @@
 This is a repository of the configurations used in the analysis of the stability of quaternary solid solutions.
 
 Fig2
-The file configs contains the 76 inequivalent configurations. The third column corresponds to the degeneracies. As far as we know, Gulp does not accept general symbos for the atoms like A, A', B, B', etc. So, we used the symbols of elements and their formal charges. Since any interactomic potential is defined, the lable of the atom is not important, only its charge. The script make_input can be used to build the Gulp input files. It is possible to change the lattice constants
-a1 and a2.
+The file configs contains the 76 inequivalent configurations. The third column corresponds to the degeneracies. As far as we know, Gulp does not accept general labels for the atoms like A, A', B, B', etc. So, we used the symbols of the elements and their formal charges. Since any interactomic potential is defined, the label of the atom is not important, only its charge. The script make_input can be used to build the Gulp input files. It is possible to change the lattice constants a1 and a2.
 
 Fig4
-The file struct_enum.out contains all the configurations (without the 2 pure compounds). In order to build the input files, the Gus Hart’s program makePerovStr.f90 can help (github.com/msg-byu/enumlib).
+The file struct_enum.out contains all the configurations (not the 2 pure compounds). In order to build the input files, the Gus Hart’s program makePerovStr.f90 can help (github.com/msg-byu/enumlib).
 
 Fig6 and Fig8
 The structures are separated by the alloy types.
